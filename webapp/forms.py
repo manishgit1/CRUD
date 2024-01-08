@@ -30,7 +30,7 @@ class CreateRecordForm(forms.ModelForm):
      class Meta:
            
            model = Record
-           fields = ['first_name', 'last_name', 'email', 'phone', 'address', 'city', 'province', 'country', 'resume']
+           fields = ['first_name', 'last_name', 'email', 'phone', 'address', 'city', 'province', 'country' ]
 
 #Update a record
            
@@ -39,7 +39,7 @@ class UpdateRecordForm(forms.ModelForm):
      class Meta:
            
            model = Record
-           fields = ['first_name', 'last_name', 'email', 'phone', 'address', 'city', 'province', 'country', 'resume']
+           fields = ['first_name', 'last_name', 'email', 'phone', 'address', 'city', 'province', 'country']
 
 
 

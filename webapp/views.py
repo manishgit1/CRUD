@@ -83,7 +83,7 @@ def create_record(request):
     form = CreateRecordForm()
 
     if request.method == 'POST':
-         form = CreateRecordForm(request.POST, request.FILES)
+         form = CreateRecordForm(request.POST)
 
          if form.is_valid():
            
